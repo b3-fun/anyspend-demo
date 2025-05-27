@@ -5,7 +5,7 @@ import "@b3dotfun/react/styles";
 import "./globals.css";
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {

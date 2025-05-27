@@ -7,11 +7,11 @@ export const wagmiConfig = getDefaultConfig({
   appName: "My RainbowKit App",
   projectId: "YOUR_PROJECT_ID",
   chains: [mainnet, polygon, optimism, arbitrum, base],
-  ssr: false,
+  ssr: false
 });
 
 export const queryClient = new QueryClient();
 
 export const thidwebClient = createThirdwebClient({
-  clientId: process.env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID!,
+  clientId: process.env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID!
 });

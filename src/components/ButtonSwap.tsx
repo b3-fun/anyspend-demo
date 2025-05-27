@@ -8,7 +8,7 @@ export const ButtonSwap = () => {
       onClick={() => {
         setB3ModalOpen(true);
         setB3ModalContentType({
-          type: "anySpend",
+          type: "anySpend"
         });
       }}
     >

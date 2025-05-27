@@ -5,16 +5,10 @@ import { Account, EIP1193 } from "thirdweb/wallets";
 import { EIP1193Provider } from "viem";
 import { useAccount, useWalletClient } from "wagmi";
 
-export const B3CustomProvider = ({
-  children,
-}: {
-  children: React.ReactNode;
-}) => {
+export const B3CustomProvider = ({ children }: { children: React.ReactNode }) => {
   const { address, connector } = useAccount();
   const { data: walletClient } = useWalletClient();
-  const [accountOverride, setAccountOverride] = useState<Account | undefined>(
-    undefined
-  );
+  const [accountOverride, setAccountOverride] = useState<Account | undefined>(undefined);
 
   useEffect(() => {
     const fn = async () => {
@@ -26,10 +20,10 @@ export const B3CustomProvider = ({
       if (!provider) return;
 
       const thirdwebWallet = EIP1193.fromProvider({
-        provider: provider as EIP1193Provider,
+        provider: provider as EIP1193Provider
       });
       const connectedAccount = await thirdwebWallet.connect({
-        client: thidwebClient,
+        client: thidwebClient
       });
       setAccountOverride(connectedAccount);
     };
@@ -38,11 +32,7 @@ export const B3CustomProvider = ({
   }, [address, connector, walletClient]);
 
   return (
-    <B3Provider
-      accountOverride={accountOverride}
-      environment="production"
-      theme="dark"
-    >
+    <B3Provider accountOverride={accountOverride} environment="production" theme="dark">
       {children}
       <B3DynamicModal />
     </B3Provider>

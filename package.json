@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier:check": "npx prettier \"**/*.{ts,tsx,js,jsx,mjs,cjs,json}\" --check",
+    "prettier:write": "npx prettier \"**/*.{ts,tsx,js,jsx,mjs,cjs,json}\" --write"
   },
   "dependencies": {
     "@b3dotfun/anyspend-sdk": "0.3.23",
@@ -30,6 +32,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
     "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "^3.5.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   },

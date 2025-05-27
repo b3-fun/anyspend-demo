@@ -38,24 +38,23 @@ export const ButtonJoinTournament = () => {
             name: tournamentData.data[0].name,
             description: tournamentData.data[0].description,
             imageUrl: tournamentData.data[0].imageUrl,
-            slug: tournamentData.data[0].slug,
+            slug: tournamentData.data[0].slug
           },
           tournamentEntryToken: {
             symbol: tournamentData.data[0].entryFee.tokenAmount.symbol,
             chainId: tournamentData.data[0].chainId,
             address: tournamentData.data[0].entryFee.tokenAmount.address,
             name:
-              tournamentData.data[0].entryFee.tokenAmount.name ||
-              tournamentData.data[0].entryFee.tokenAmount.symbol,
+              tournamentData.data[0].entryFee.tokenAmount.name || tournamentData.data[0].entryFee.tokenAmount.symbol,
             decimals: tournamentData.data[0].entryFee.tokenAmount.decimal,
             metadata: {
-              logoURI: tournamentData.data[0].entryFee.tokenAmount.imageUrl,
-            },
+              logoURI: tournamentData.data[0].entryFee.tokenAmount.imageUrl
+            }
           },
           tournamentEntryFee: parseUnits(
             tournamentData.data[0].entryFee.tokenAmount.amount,
             tournamentData.data[0].entryFee.tokenAmount.decimal
-          ).toString(),
+          ).toString()
         });
       }}
     >
