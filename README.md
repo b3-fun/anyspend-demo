@@ -1,5 +1,9 @@
 This repository hosts a Next.js application designed to demonstrate the minimal setup to use AnySpend packages: `@b3dotfun/react` and `@b3dotfun/anyspend-sdk`. The primary goal of this demo is to simplify the integration process for developers looking to incorporate AnySpend functionalities into their own Next.js applications, leveraging common Web3 tools.
 
+## Live Demo
+
+You can access the live demo of this application here: [https://anyspend-demo.vercel.app/](https://anyspend-demo.vercel.app/)
+
 ## Features
 
 - **Swap:** Swap cross-chain tokens.
