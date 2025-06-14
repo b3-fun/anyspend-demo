@@ -1,4 +1,3 @@
-import { B3 } from "@b3dotfun/react/constants/anyspend.constants";
 import { useModalStore } from "@b3dotfun/react/stores/useModalStore";
 import { base } from "viem/chains";
 
@@ -17,7 +16,16 @@ export const ButtonMintNFT = () => {
             contractAddress: "0x9c275ff1634519E9B5449ec79cd939B5F900564d",
             price: "500000000000000000",
             priceFormatted: "0.5",
-            currency: B3,
+            currency: {
+              chainId: 8453,
+              address: "0xb3b32f9f8827d4634fe7d973fa1034ec9fddb3b3",
+              decimals: 18,
+              name: "B3",
+              symbol: "B3",
+              metadata: {
+                logoURI: "https://s2.coinmarketcap.com/static/img/coins/64x64/35690.png"
+              }
+            },
             imageUrl:
               "https://storage.googleapis.com/nftimagebucket/base/tokens/0x80f0e6644723abb03aa8867d21e32bd854b2a2d9/preview/TVRjME1EUTRORFl4T0E9PV8zNjcy.jpg",
             name: "Downhill Ski",
