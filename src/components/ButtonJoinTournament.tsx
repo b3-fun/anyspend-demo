@@ -1,5 +1,4 @@
-import { useAccountWallet } from "@b3dotfun/react/hooks/useAccountWallet";
-import { useModalStore } from "@b3dotfun/react/stores/useModalStore";
+import { useAccountWallet, useModalStore } from "@b3dotfun/sdk/global-account/react";
 import { useEffect, useState } from "react";
 import { parseUnits } from "viem";
 

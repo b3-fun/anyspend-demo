@@ -1,4 +1,4 @@
-import { useModalStore } from "@b3dotfun/react/stores/useModalStore";
+import { useModalStore } from "@b3dotfun/sdk/global-account/react";
 
 export const ButtonSwap = () => {
   const { setB3ModalOpen, setB3ModalContentType } = useModalStore();

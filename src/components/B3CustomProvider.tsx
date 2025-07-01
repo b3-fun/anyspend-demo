@@ -1,5 +1,5 @@
 import { thidwebClient } from "@/clients";
-import { B3DynamicModal, B3Provider } from "@b3dotfun/react";
+import { B3DynamicModal, B3Provider } from "@b3dotfun/sdk/global-account/react";
 import { useEffect, useState } from "react";
 import { Account, EIP1193 } from "thirdweb/wallets";
 import { EIP1193Provider } from "viem";

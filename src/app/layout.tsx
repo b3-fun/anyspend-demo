@@ -1,6 +1,6 @@
 import "@rainbow-me/rainbowkit/styles.css";
 
-import "@b3dotfun/react/styles";
+import "@b3dotfun/sdk/index.css";
 
 import "./globals.css";
 

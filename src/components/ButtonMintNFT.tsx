@@ -1,4 +1,4 @@
-import { useModalStore } from "@b3dotfun/react/stores/useModalStore";
+import { useModalStore } from "@b3dotfun/sdk/global-account/react";
 import { base } from "viem/chains";
 
 export const ButtonMintNFT = () => {

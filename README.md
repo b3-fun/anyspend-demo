@@ -1,4 +1,4 @@
-This repository hosts a Next.js application designed to demonstrate the minimal setup to use AnySpend packages: `@b3dotfun/react` and `@b3dotfun/anyspend-sdk`. The primary goal of this demo is to simplify the integration process for developers looking to incorporate AnySpend functionalities into their own Next.js applications, leveraging common Web3 tools.
+This repository hosts a Next.js application designed to demonstrate the minimal setup to use AnySpend packages: `@b3dotfun/sdk`. The primary goal of this demo is to simplify the integration process for developers looking to incorporate AnySpend functionalities into their own Next.js applications, leveraging common Web3 tools.
 
 ## Live Demo
 
@@ -14,8 +14,7 @@ You can access the live demo of this application here: [https://anyspend-demo.ve
 
 ## Packages Used
 
-- `@b3dotfun/react`: React components for easy AnySpend UI integration.
-- `@b3dotfun/anyspend-sdk`: The core SDK for interacting with AnySpend services.
+- `@b3dotfun/sdk`: The core SDK for interacting with B3 ecosystem, including AnySpend services.
 - `next` (v15 with Turbopack): The React framework for production.
 - `react` (v19): A JavaScript library for building user interfaces.
 - `react-dom` (v19): Serves as the entry point to the DOM and server renderers for React.
