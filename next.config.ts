@@ -8,7 +8,13 @@ const nextConfig: NextConfig = {
       'thirdweb',
       '@b3dotfun/sdk'
     ]
-  }
+  },
+  transpilePackages: [
+    '@rainbow-me/rainbowkit',
+    '@walletconnect/core',
+    'thirdweb',
+    '@b3dotfun/sdk'
+  ]
 };
 
 export default nextConfig;
