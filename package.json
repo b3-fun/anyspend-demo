@@ -11,7 +11,7 @@
     "prettier:write": "npx prettier \"**/*.{ts,tsx,js,jsx,mjs,cjs,json}\" --write"
   },
   "dependencies": {
-    "@b3dotfun/sdk": "0.0.1-alpha.3",
+    "@b3dotfun/sdk": "0.0.1-alpha.17",
     "@rainbow-me/rainbowkit": "^2.2.5",
     "@tanstack/react-query": "^5.77.2",
     "next": "15.3.2",
