@@ -1,3 +1,5 @@
+"use client";
+
 import { useAccountWallet, useModalStore } from "@b3dotfun/sdk/global-account/react";
 import { useEffect, useState } from "react";
 import { parseUnits } from "viem";

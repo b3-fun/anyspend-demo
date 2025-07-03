@@ -1,3 +1,5 @@
+"use client";
+
 import { useModalStore } from "@b3dotfun/sdk/global-account/react";
 
 export const ButtonSwap = () => {

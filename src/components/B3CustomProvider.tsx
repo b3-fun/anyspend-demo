@@ -1,3 +1,5 @@
+"use client";
+
 import { thidwebClient } from "@/clients";
 import { B3DynamicModal, B3Provider } from "@b3dotfun/sdk/global-account/react";
 import { useEffect, useState } from "react";
